@@ -26,7 +26,7 @@ def get_db():
 
 
 class DBPlace(Base):
-    __tablename__: str = 'places'
+    __tablename__ = 'places'
 
     id = Column(Integer, primary_key=True, index=True)
     name = Column(String(50))
